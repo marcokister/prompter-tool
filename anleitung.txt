@@ -1,0 +1,26 @@
+Kurzanleitung Teleprompter
+
+1. Programm starten:
+   python3 teleprompter.py
+
+2. Auf "Textdatei öffnen" klicken und eine Textdatei auswählen.
+
+3. Die Anzeige über die Regler anpassen:
+   - Schriftgröße: Größe des angezeigten Textes
+   - Breite: maximale Breite der Textzeilen
+   - Zeilen: Anzahl der sichtbaren Zeilen
+   - Basis-WPM: Grundgeschwindigkeit in Wörtern pro Minute
+
+4. Mit "Start" beginnt der Prompter.
+   - Die mittlere Zeile ist die Fokuszeile.
+   - Das aktuell gesprochene Wort wird farblich hervorgehoben.
+   - Kurze Wörter laufen etwas schneller, lange Wörter etwas langsamer.
+
+5. Mit "Pause" kann der Ablauf angehalten werden.
+
+6. Mit "Zurücksetzen" springt der Prompter an den Anfang des Textes.
+
+Hinweise:
+- Der Text scrollt weich nach oben wie bei einem echten Teleprompter.
+- Satzzeichen verlängern die Anzeigedauer eines Wortes leicht.
+- Leere oder nicht lesbare Dateien werden mit einer Meldung abgefangen.
